@@ -9,3 +9,6 @@ __pycache__/
 *.log
 .DS_Store
 coverage/
+
+docs/LOOM_DEMO_SCRIPT.md
+docs/SUBMISSION_REPORT.md
