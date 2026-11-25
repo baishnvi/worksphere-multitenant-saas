@@ -5,8 +5,8 @@
  */
 describe('Capstone Challenge: Optimistic Concurrency Control (OCC)', () => {
   it('should reject stale updates with 409 Conflict', () => {
-    const taskCurrentVersion = 2;
-    const incomingExpectedVersion = 1; // Stale version from slower client
+    const taskCurrentVersion: number = 2;
+    const incomingExpectedVersion: number = 1; // Stale version from slower client
 
     const hasConflict = taskCurrentVersion !== incomingExpectedVersion;
     expect(hasConflict).toBe(true);
